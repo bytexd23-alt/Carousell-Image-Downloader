@@ -31,7 +31,6 @@ And then, add Scrapy to your PATH:
     Under "System Variables", scroll down to find "Path" and click on "Edit".
     Click on "New" and add the path to the Scrapy executable folder. Example "C:\Users\Administrator\appdata\local\package\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\Scripts".
     Click "OK" on all open windows to save the changes.
-    Open a new command prompt window and try running the Scrapy command again.
 
 And open up IDLE Editor, Run the command by pressing F5
 
