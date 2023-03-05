@@ -9,12 +9,14 @@ When the user enters a Carousell URL into the GUI and clicks the "Scrape" button
 ## !!NOTE!!
 The script will save the images and metadata in a new folder created in the same location as the script. The naming convention for the folder will include the user link ID and item name, along with a random 6-character string of uppercase letters and digits to ensure a unique folder name.
 
-# The Script has issues. 
+## The Script has issues. 
 - It downloads not only the item images but also the comment images.
 - The script fails to extract the user link ID from the product page, resulting in the output being marked as an "Unknown User". 
 - Send at Issues tab you find any. Thanks
 
-### To use this app ``Windows``
+# Using the App
+
+## Windows
 ```
 pip install scrapy
 pip install bs4
@@ -32,3 +34,9 @@ And then, add Scrapy to your PATH:
     Open a new command prompt window and try running the Scrapy command again.
 
 And open up IDLE Editor, Run the command by pressing F5
+
+## Linux
+???
+
+## MacOS
+???
