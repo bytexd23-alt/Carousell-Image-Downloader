@@ -32,7 +32,7 @@ And then, add Scrapy to your PATH:
     Click on "New" and add the path to the Scrapy executable folder. Example "C:\Users\Administrator\appdata\local\package\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\Scripts".
     Click "OK" on all open windows to save the changes.
 
-And open up IDLE Editor, Run the command by pressing F5
+And open up IDLE Editor, Run the script by pressing F5
 
 ## Linux
 ???
