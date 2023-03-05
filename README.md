@@ -4,14 +4,14 @@
 
 This [Python](https://www.python.org/) script is designed to scrape images and metadata from a Carousell listing and save them locally. The script uses ``Scrapy`` and ``BeautifulSoup`` to extract the necessary data from the webpage, and uses ``PySimpleGUI`` for the GUI.
 
-When the user enters a Carousell URL into the GUI and clicks the "Scrape" button, the script initializes a CrawlerProcess object and passes it an instance of the CarousellSpider class, along with the provided URL as a start URL. The CarousellSpider class defines the parsing logic for the spider. It extracts the name of the item being sold, the user link ID of the seller, and the URLs of any images on the listing that contain the word "progressive" in their filename. It then saves the images and metadata (item name and user link ID) to a local directory, which is created in the same location as the script.
+When the user enters a Carousell URL into the GUI and clicks the "Scrape" button, the script initializes a CrawlerProcess object and passes it an instance of the CarousellSpider class, along with the provided URL as a start URL. The CarousellSpider class defines the parsing logic for the spider. It extracts the name of the item being sold and the URLs of any images on the listing that contain the word "progressive" in their filename. It then saves the images and metadata (item name) to a local directory, which is created in the same location as the script.
 
 ## !!NOTE!!
 The script will save the images and metadata in a new folder created in the same location as the script. The naming convention for the folder will include the user link ID and item name, along with a random 6-character string of uppercase letters and digits to ensure a unique folder name.
 
 ## The Script has issues. 
 - It downloads not only the item images but also the comment images.
-- The script fails to extract the user link ID from the product page, resulting in the output being marked as an "Unknown User". 
+- The script fails to extract the user link ID from the product page, resulting in the output being marked as an "Unknown User". I haven't been able to fix this.
 - Send at Issues tab you find any. Thanks
 
 # Using the App
