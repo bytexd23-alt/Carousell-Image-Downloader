@@ -13,6 +13,9 @@ The script will save the images and metadata in a new folder created in the same
 - It downloads not only the item images but also the comment images.
 - The script fails to extract the user link ID from the product page, resulting in the output being marked as an "Unknown User". I haven't been able to fix this.
 - Apparently it won't save as .jpg. I will fix this hopefully
+- Can't download image if same runtime.
+    - Additional Fix for now : Press "X" button (Close) or Alt+F4. And open it again to download another link.
+    Again, I will hopefully fix this. 
 - Send at Issues tab you find any. Thanks
 
 # Using the App
