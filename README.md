@@ -16,7 +16,9 @@ The script will save the images and metadata in a new folder created in the same
 - Can't download image if same runtime.
     - Additional Fix for now : Press "X" button (Close) or Alt+F4. And open it again to download another link.
     Again, I will hopefully fix this. 
+- Exit doesn't do anything (See Additional Fix)
 - Send at Issues tab you find any. Thanks
+
 
 # Using the App
 
