@@ -17,6 +17,7 @@ The script will save the images and metadata in a new folder created in the same
     - Additional Fix for now : Press "X" button (Close) or Alt+F4. And open it again to download another link.
     Again, I will hopefully fix this. 
 - Sometimes "Exit" doesn't do anything (See Additional Fix)
+- Only works on newer posts (E.G 7 years ago doesn't work)
 - Send at Issues tab you find any. Thanks
 
 
